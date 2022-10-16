@@ -92,7 +92,7 @@
 	"uuid_disk=${uuid_gpt_disk};" \
 	"name=uboot,start=8MB,size=4MB,uuid=${uuid_gpt_loader2};" \
 	"name=resource,start=12MB,size=4MB,uuid=${uuid_gpt_resource};" \
-	"name=JELOS,start=16MB,size=3072M,bootable,uuid=${uuid_gpt_boot};\0"
+	"name=RR-BOOT,start=16MB,size=3072M,bootable,uuid=${uuid_gpt_boot};\0"
 #else
 #define PARTS_DEFAULT \
 	"uuid_disk=${uuid_gpt_disk};" \
